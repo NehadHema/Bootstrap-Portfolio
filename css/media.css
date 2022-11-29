@@ -1,0 +1,168 @@
+/* Extra Small ---xs */
+@media (max-width: 575.98px) {
+    /* Contact Section Start */
+
+    .contact .container {
+        width: 90%;
+    }
+
+    .contact form .button {
+        margin-top: 0;
+    }
+
+    .contact form .text-area {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .contact .contact-title {
+        margin-top: 0;
+    }
+
+    .list-ico {
+        width: 100%;
+    }
+
+    /* Contact Section End */
+
+}
+
+/* Small----sm */
+@media (max-width: 767.98px) {
+
+    /* Header Section Starts */
+    header .container .caption h1 {
+        font-size: 3rem;
+    }
+
+    header .container .caption p {
+        font-size: 1.5rem;
+    }
+
+    /* Header Section Ends */
+
+    /* About Section Starts */
+    .about .about-img {
+        margin-bottom: 50px;
+        width: 40%;
+    }
+
+    .about .about-t {
+        width: 60%;
+    }
+
+    .about .container h5 {
+        padding-top: 1rem;
+    }
+
+    .about .container h5::after {
+        top: 60px;
+    }
+
+    /* About Section Ends */
+
+    /* Contact Section Starts */
+    .contact form .button {
+        margin-top: 0;
+        margin-bottom: 1.5rem;
+    }
+
+    .contact .list-ico {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    /* Contact Section Ends */
+}
+
+/* Meduim----md */
+@media (max-width: 991.98px) {
+    /* Navbar Section Starts */
+
+    .navbar li:hover .underline {
+        width: 15%;
+    }
+
+    .dropdown-menu .submenu {
+        display: none;
+        position: absolute;
+        left: 40%;
+        top: 0px;
+        width: 60%;
+    }
+
+    /* Navbar Section Ends */
+
+    /* About Section Starts */
+    .about .about-img img {
+        width: 90%;
+    }
+
+    .about-title {
+        width: 100%;
+    }
+
+    /* About Section Ends */
+
+    /* Blog Section Starts */
+    .blog .card-footer {
+        flex-wrap: wrap;
+    }
+    .blog .post-time {
+        margin-left: 50%;
+    }
+    /* Blog Section Ends */
+}
+
+/*Large ---- lg */
+@media (max-width: 1199.98px) {
+
+    /* About Section Starts */
+    .about-img {
+        margin-bottom: 50px;
+    }
+
+    .about-title {
+        margin-left: 2rem;
+    }
+
+    /* About Section Ends */
+
+    /* Portfolio Section Starts */
+    .portfolio .porto .date {
+        font-size: 0.8rem !important;
+    }
+
+    /* Portfolio Section Ends */
+
+
+    /* Blog Section Starts */
+    .blog .blog-title {
+        line-height: .5rem;
+        padding-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .blog .card-body h3 {
+        line-height: .5rem;
+        padding-top: 1rem;
+    }
+
+    /* Blog Section Ends */
+}
+
+@media (min-width: 1200px) {}
+
+@media screen and (max-width: 600px) {
+    .about-img {
+        margin-bottom: 50px;
+        width: 50%;
+    }
+    .blog .blog-p {
+        margin-top: 2rem;
+    }
+.about ,.service,.counter,.portfolio,.testimoninal,.blog ,.contact,.footer{
+    width: 95%;
+    margin:auto;
+}
+   
+}
